@@ -48,9 +48,9 @@ function draw() {
   }
  noStroke();
   fill(lerpColor(color(46, 17, 107), color(217, 46, 32), level));
-  circle(0, 0, millis()/500);
+  circle(0, 0, millis()/100);
   fill(50, 0, 50);
-  circle(0, 0, millis()/5000);
+  circle(0, 0, millis()/500);
   
 
   fill(0);
